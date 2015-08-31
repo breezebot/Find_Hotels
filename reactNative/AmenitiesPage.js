@@ -28,40 +28,40 @@ module.exports = React.createClass({
                 </Text>
             </View>
             <View style={[styles.view3]}>
-                <SwitchIOS 
-                	style={[styles.view3Switchios13]}>
-                </SwitchIOS>
                 <Text 
                 	style={[styles.view3Text6]}>
                 	Dogs Allowed
                 </Text>
+                <SwitchIOS 
+                  style={[styles.view3Switchios13]}>
+                </SwitchIOS>
             </View>
             <View style={[styles.view4]}>
-                <SwitchIOS 
-                	style={[styles.view4Switchios12]}>
-                </SwitchIOS>
                 <Text 
                 	style={[styles.view4Text7]}>
                 	Pool
                 </Text>
+                <SwitchIOS 
+                  style={[styles.view4Switchios12]}>
+                </SwitchIOS>
             </View>
             <View style={[styles.view5]}>
-                <SwitchIOS 
-                	style={[styles.view8Switchios14]}>
-                </SwitchIOS>
                 <Text 
                 	style={[styles.view5Text9]}>
                 	Room Service
                 </Text>
+                <SwitchIOS 
+                  style={[styles.view8Switchios14]}>
+                </SwitchIOS>
             </View>
             <View style={[styles.view8]}>
-                <SwitchIOS 
-                	style={[styles.view5Switchios11]}>
-                </SwitchIOS>
                 <Text 
                 	style={[styles.view8Text10]}>
                 	Gym
                 </Text>
+                <SwitchIOS 
+                  style={[styles.view5Switchios11]}>
+                </SwitchIOS>
             </View>
             <View style={[styles.view15]}>
                 <Text 
@@ -97,21 +97,24 @@ var styles = StyleSheet.create({
       view1Navbar2:{
           paddingLeft: 0,
           paddingRight: 0,
-          paddingTop: 12,
-          paddingBottom: 0,
+          paddingTop: 32,
+          paddingBottom: 21,
           marginLeft: 0,
           marginRight: 0,
           marginTop: 0,
           marginBottom: 0,
           fontSize: 17,
+          fontWeight: 'bold',
           textAlign: 'center',
-          backgroundColor: '#9c1b00',
           color: '#ffffff',
+          backgroundColor: '#9c1c00',
           width: 375,
-          height: NaN,
+          height: 73.75,
       }, 
       view3:{
           flexDirection: 'row',
+          width: 375,
+          paddingTop: 10,
       }, 
       view4:{
           flexDirection: 'row',
@@ -120,62 +123,48 @@ var styles = StyleSheet.create({
           flexDirection: 'row',
       }, 
       view3Text6:{
-          paddingLeft: 12,
-          paddingRight: 0,
-          paddingTop: 0,
-          paddingBottom: 0,
-          marginLeft: 0,
-          marginRight: 0,
-          marginTop: 0,
-          marginBottom: 0,
           fontSize: 17,
-          width: 234.375,
-          height: NaN,
+          marginLeft: 20,
+          width: 260,
+          height: 60,
       }, 
       view4Text7:{
-          paddingLeft: 11,
-          paddingRight: 0,
-          paddingTop: 0,
-          paddingBottom: 0,
-          marginLeft: 0,
-          marginRight: 0,
-          marginTop: 0,
-          marginBottom: 0,
           fontSize: 17,
-          width: 312.49999999999994,
-          height: NaN,
+          marginLeft: 20,
+          width: 260,
+          height: 60,
       }, 
       view8:{
           flexDirection: 'row',
       }, 
       view5Text9:{
-          paddingLeft: 8,
+          paddingLeft: 0,
           paddingRight: 0,
           paddingTop: 0,
           paddingBottom: 0,
-          marginLeft: 0,
+          marginLeft: 20,
           marginRight: 0,
           marginTop: 0,
           marginBottom: 0,
           fontSize: 17,
-          width: 234.375,
-          height: NaN,
+          width: 260,
+          height: 60,
       }, 
       view8Text10:{
           paddingLeft: 0,
           paddingRight: 0,
           paddingTop: 0,
           paddingBottom: 0,
-          marginLeft: 0,
+          marginLeft: 20,
           marginRight: 0,
           marginTop: 0,
           marginBottom: 0,
           fontSize: 17,
-          width: 312.49999999999994,
-          height: NaN,
+          width: 260,
+          height: 60,
       }, 
       view5Switchios11:{
-          paddingLeft: 0,
+          paddingLeft: 10,
           paddingRight: 0,
           paddingTop: 0,
           paddingBottom: 0,
@@ -183,11 +172,11 @@ var styles = StyleSheet.create({
           marginRight: 0,
           marginTop: 0,
           marginBottom: 0,
-          width: 156.24999999999997,
-          height: NaN,
+          width: 260,
+          height: 60,
       }, 
       view4Switchios12:{
-          paddingLeft: 0,
+          paddingLeft: 10,
           paddingRight: 0,
           paddingTop: 0,
           paddingBottom: 0,
@@ -195,8 +184,8 @@ var styles = StyleSheet.create({
           marginRight: 0,
           marginTop: 0,
           marginBottom: 0,
-          width: 156.24999999999997,
-          height: NaN,
+          width: 260,
+          height: 60,
       }, 
       view3Switchios13:{
           paddingLeft: 0,
@@ -207,8 +196,8 @@ var styles = StyleSheet.create({
           marginRight: 0,
           marginTop: 0,
           marginBottom: 0,
-          width: 234.375,
-          height: NaN,
+          width: 260,
+          height: 60,
       }, 
       view8Switchios14:{
           paddingLeft: 0,
@@ -219,8 +208,8 @@ var styles = StyleSheet.create({
           marginRight: 0,
           marginTop: 0,
           marginBottom: 0,
-          width: 234.375,
-          height: NaN,
+          width: 260,
+          height: 60,
       }, 
       view15:{
       }, 
@@ -231,13 +220,12 @@ var styles = StyleSheet.create({
           paddingBottom: 0,
           marginLeft: 0,
           marginRight: 0,
-          marginTop: 0,
+          marginTop: 15,
           marginBottom: 0,
-          fontSize: 12,
+          fontSize: 18,
           textAlign: 'center',
-          color: '#442194',
           width: 375,
-          height: NaN,
+          height:20,
       }, 
       view17:{
       }, 
@@ -250,12 +238,12 @@ var styles = StyleSheet.create({
           paddingBottom: 0,
           marginLeft: 0,
           marginRight: 0,
-          marginTop: 0,
+          marginTop: 15,
           marginBottom: 0,
-          fontSize: 20,
+          fontSize: 18,
           textAlign: 'center',
           width: 375,
-          height: NaN,
+          height: 20,
       }, 
       view21:{
       }, 
@@ -264,12 +252,12 @@ var styles = StyleSheet.create({
           paddingRight: 0,
           paddingTop: 0,
           paddingBottom: 0,
-          marginLeft: 0,
-          marginRight: 0,
+          marginLeft: 10,
+          marginRight: 10,
           marginTop: 0,
           marginBottom: 0,
-          width: 375,
-          height: NaN,
+          width: 350,
+          height: 50,
       }, 
       view23:{
           height: NaN,
@@ -293,12 +281,12 @@ var styles = StyleSheet.create({
           paddingRight: 0,
           paddingTop: 0,
           paddingBottom: 0,
-          marginLeft: 0,
-          marginRight: 0,
+          marginLeft: 10,
+          marginRight: 10,
           marginTop: 0,
           marginBottom: 0,
-          width: 375,
-          height: NaN,
+          width: 350,
+          height: 50,
       }, 
 })
 
