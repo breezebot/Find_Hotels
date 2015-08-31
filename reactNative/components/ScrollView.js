@@ -24,7 +24,12 @@ module.exports = React.createClass({
       <ScrollView
         horizontal={true}
         contentInset={this.props.contentInset}
-        style={[this.props.style]}>
+        style={[this.props.style]}
+        alwaysBounceVertical={false}
+        automaticallyAdjustContentInsets={true}
+        bounces={false}
+        centerContent={true}
+        directionalLockEnabled={true}>
         {this.state.THUMBS.map(this.state.createThumbRow)}
       </ScrollView>
     );
@@ -38,7 +43,7 @@ var Thumb = React.createClass({
   render: function() {
     return (
       <View style={styles.border}>
-        <Image style={imageStyle} source={{uri:this.props.uri}} />
+        <Image style={[imageStyle, styles.img]} source={{uri:this.props.uri}} />
       </View>
     );
   }
@@ -53,4 +58,9 @@ var styles = StyleSheet.create({
     borderRadius: 3,
     flexDirection: 'row',
   },
+  img: {
+    flex: 1,
+    width: 200,
+    height: 122,
+  }
 });
