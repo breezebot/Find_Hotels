@@ -78,10 +78,14 @@ module.exports = React.createClass({
 
 var styles = StyleSheet.create({
   map: {
-    height: 300,
-    margin: 20,
+    height: 250,
+    marginLeft: 20,
+    marginRight: 20,
+    marginTop: 20,
+    marginBottom: 0,
     borderWidth: 1,
     borderColor: '#000000',
+    flex: 1,
   },
   row: {
     flexDirection: 'row',
