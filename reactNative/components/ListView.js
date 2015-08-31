@@ -28,13 +28,14 @@ module.exports = React.createClass({
         style={this.props.style} 
         dataSource={this.state.dataSource}
         renderRow={this.renderInput}
+        pageSize={14}
       />
     );
   },
   renderInput: function(item){
     return (
       <View>
-        <Text style={this.props.style}>{item}</Text>
+        <Text>{item}</Text>
       </View>
     );
   }
