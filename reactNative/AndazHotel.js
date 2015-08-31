@@ -24,7 +24,7 @@ module.exports = React.createClass({
             <View style={[styles.view1]}>
                 <Text 
                 	style={[styles.view1Navbar4]}>
-                	My Cool App
+                	Andaz Hotel
                 </Text>
             </View>
             <View style={[styles.view2]}>
@@ -56,6 +56,7 @@ var styles = StyleSheet.create({
       }, 
       view3:{
           flexDirection: 'row',
+          height: 281.25,
       }, 
       view1Navbar4:{
           paddingLeft: 0,
@@ -67,6 +68,7 @@ var styles = StyleSheet.create({
           marginTop: 0,
           marginBottom: 0,
           fontSize: 17,
+          fontWeight: 'bold',
           textAlign: 'center',
           color: '#ffffff',
           backgroundColor: '#9c1c00',
@@ -101,12 +103,12 @@ var styles = StyleSheet.create({
           paddingRight: 0,
           paddingTop: 0,
           paddingBottom: 0,
-          marginLeft: 0,
+          marginLeft: 10,
           marginRight: 0,
           marginTop: 0,
           marginBottom: 0,
           fontSize: 13,
-          width: 234.375,
+          width: 230,
           height: 281.25,
       }, 
       view3Listview9:{
